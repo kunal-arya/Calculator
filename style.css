@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    background-image: linear-gradient(to right,#000428, #004e92);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.calculator {
+    background-color: 	#D3D3D3 ;
+    width: 250px;
+    margin: auto;
+    padding: 10px 10px 10px 20px;
+}
+
+.heading {
+text-align: center;
+color: white;
+}
+
+button {
+    margin: 2px;
+    padding: 10px 20px ;
+    border-color: ;
+}
+
+
+.subtract , .divide , .dot {
+ padding: 10px 22px;
+}
+
+.result {
+    padding: 10px 4px ;
+}
