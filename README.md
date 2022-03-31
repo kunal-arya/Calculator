@@ -9,7 +9,6 @@
 
  ### HTML
  - [Basic HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
- - [HTML onClick Event Attribute](https://www.w3schools.com/tags/ev_onclick.asp)
  
  ### CSS
  - [Basic CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -17,4 +16,4 @@
 
  ### Javascript
  - [Basic Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
- -[Event Listener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+ - [Event Listener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
