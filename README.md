@@ -13,6 +13,8 @@
  ### CSS
  - [Basic CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
  - [CSS Gradients](https://www.w3schools.com/css/css3_gradients.asp)
+ - CSS GRID
+ - CSS Flexbox
 
  ### Javascript
  - [Basic Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)

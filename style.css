@@ -8,27 +8,60 @@ body {
     height: 100vh;
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4,50px);
-    gap: 0.1em;
-    background-color: #fff;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: minmax(120px, auto) repeat(5,100px);
 }
 
 .output {
-    background-color: blue;
+    background-color: #00000075;
     grid-column: 1/ -1;
-    grid-row: 1;
-    border: 1px solid black;
-    height: 50px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 0.75em;
+    font-weight: 700;
 }
 
-.span-two {
-    grid-column: span 2;
+
+.current-operand {
+    font-size: 2.5rem;
 }
+
+.previous-operand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+
+
+
 
 /* button Style */
+
+.grid-container > button {
+    height: 100px;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, .75);
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.grid-container > button:hover {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.grid-container > .span-two {
+    grid-column: span 2;
+}
 
