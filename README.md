@@ -1,6 +1,9 @@
 # Calculator
  Made a simple Calculator.
-
+ 
+ ## link to the Project
+ [click here](https://calculator-k.netlify.app/)
+ 
  ## Technologies Used - 
  
  Javascript , HTML and CSS. 
